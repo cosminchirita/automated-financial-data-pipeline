@@ -24,15 +24,9 @@ This project demonstrates an end-to-end data engineering workflow:
 
 ## Data Pipeline Architecture
 
-Yahoo Finance API
-↓
-Python / Pandas
-↓
-Data Transformation
-↓
-SQLite Database
-↓
-SQL Analytics
+## Data Pipeline Architecture
+
+Yahoo Finance API → Python/Pandas → Data Transformation → SQLite Database → SQL Analytics
 
 ## Technologies
 
