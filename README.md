@@ -1,25 +1,38 @@
 # Automated Financial Data Pipeline
 
-An end-to-end financial data pipeline built with Python, Yahoo Finance, Pandas and SQLite.
+Automated ETL pipeline that extracts stock market data from Yahoo Finance, transforms it using financial analytics calculations, and loads it into a SQLite database for reporting and business intelligence purposes.
 
 ## Project Overview
 
-This project extracts stock market data from Yahoo Finance, transforms it using Python and Pandas, loads it into a SQLite database, and prepares analytical SQL queries for business intelligence reporting.
+This project demonstrates an end-to-end data engineering workflow:
 
-## Pipeline Flow
-
-Yahoo Finance API → Python ETL → CSV Export → SQLite Database → SQL Analytics → Power BI-ready dataset
+1. Extract financial market data using Yahoo Finance API
+2. Transform and enrich the dataset with calculated metrics
+3. Load processed data into SQLite
+4. Perform SQL analytics on the resulting database
 
 ## Features
 
-- Automated stock market data extraction
-- Data cleaning and transformation
-- Daily return calculation
-- Moving averages calculation
-- 20-day volatility calculation
-- SQLite database loading
-- SQL analytics queries
-- Power BI-ready financial dataset
+- Automated ETL process
+- Multi-stock market data extraction
+- Daily return calculations
+- Moving Average indicators (MA20, MA50)
+- Volatility analysis
+- SQLite data warehouse
+- SQL analytical queries
+- BI-ready dataset generation
+
+## Data Pipeline Architecture
+
+Yahoo Finance API
+↓
+Python / Pandas
+↓
+Data Transformation
+↓
+SQLite Database
+↓
+SQL Analytics
 
 ## Technologies
 
@@ -31,15 +44,7 @@ Yahoo Finance API → Python ETL → CSV Export → SQLite Database → SQL Anal
 - Git
 - GitHub
 
-## Screenshots
-
-### ETL Execution
-
-![ETL Run](screenshots/etl_run.png)
-
-### Data Loaded into SQLite
-
-![Database Loaded](screenshots/database_loaded.png)
+## Example Analytics
 
 ### Average Stock Price Analysis
 
@@ -52,6 +57,20 @@ Yahoo Finance API → Python ETL → CSV Export → SQLite Database → SQL Anal
 ### Volatility Analysis
 
 ![Volatility Analysis](screenshots/volatility_analysis.png)
+
+### ETL Execution
+
+![ETL Run](screenshots/etl_run.png)
+
+## Business Value
+
+The pipeline automates the collection and preparation of financial market data, making it suitable for:
+
+- Financial analysis
+- Investment research
+- Business intelligence dashboards
+- Data warehouse development
+- Quantitative analytics
 
 ## Author
 
