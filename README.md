@@ -22,7 +22,6 @@ This project demonstrates an end-to-end data engineering workflow:
 - SQL analytical queries
 - BI-ready dataset generation
 
-## Data Pipeline Architecture
 
 ## Data Pipeline Architecture
 
